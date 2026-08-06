@@ -18,7 +18,7 @@ Gwen Stacy - Ultimate Discord Bot
 <a name="features-overview"></a>
 ## Features Overview
 
-TitanBot offers a complete suite of tools for Discord server management and community engagement:
+Gwen Stacy offers a complete suite of tools for Discord server management and community engagement:
 
 <table>
 <tr>
@@ -105,14 +105,14 @@ TitanBot is fully containerized for easy deployment.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   cd Gwen Stacy
    ```
 
 2. **Configure environment variables:**
    ```bash
    cp .env.example .env
    ```
-   Set at minimum `DISCORD_TOKEN`, `CLIENT_ID`, and `GUILD_ID`. Docker Compose also reads `POSTGRES_USER`, `POSTGRES_PASSWORD`, and `POSTGRES_DB` from `.env` (defaults: `titanbot` / `password` / `titanbot`).
+   Set at minimum `DISCORD_TOKEN`, `CLIENT_ID`, and `GUILD_ID`. Docker Compose also reads `POSTGRES_USER`, `POSTGRES_PASSWORD`, and `POSTGRES_DB` from `.env` (defaults: `Gwen Stacy` / `password` / `Gwen Stacy`).
 
 3. **Build and start the containers:**
    ```bash
@@ -162,7 +162,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   cd Gwen Stacy
    ```
 
 2. **Install Dependencies**
@@ -185,7 +185,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
    POSTGRES_URL=postgresql://postgres:yourpassword@localhost:5432/titanbot
    POSTGRES_HOST=localhost
    POSTGRES_PORT=5432
-   POSTGRES_DB=titanbot
+   POSTGRES_DB=Gwen Stacy
    POSTGRES_USER=postgres
    POSTGRES_PASSWORD=yourpassword
    ```
@@ -225,7 +225,7 @@ Notes:
 4. **Setup PostgreSQL Database** (Optional but recommended)
    ```bash
    # Create database and user
-   createdb titanbot
+   createdb Gwen Stacy
    createuser titanbot
    psql -c "ALTER USER titanbot PASSWORD 'yourpassword';"
    psql -c "GRANT ALL PRIVILEGES ON DATABASE titanbot TO titanbot;"
