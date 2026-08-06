@@ -96,15 +96,15 @@ Gwen Stacy offers a complete suite of tools for Discord server management and co
 
 ### Video Tutorial
 For a detailed step-by-step setup guide, watch our comprehensive video tutorial:
-[**TitanBot Setup Tutorial**](https://www.youtube.com/@TouchDisc)
+[**Gwen-Stacy Setup Tutorial**](https://www.youtube.com/@TouchDisc)
 
 ## Docker Deployment (Recommended)
 
-TitanBot is fully containerized for easy deployment.
+Gwen Stacy is fully containerized for easy deployment.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
+   git clone https://github.com/codebymitch/Gwen-Stacy.git
    cd Gwen Stacy
    ```
 
@@ -281,6 +281,6 @@ Gwen Stacy is released under the MIT License. See [LICENSE](LICENSE) for details
 
 ## Thank You
 
-Thank you for choosing TitanBot for your Discord server! We're constantly working to improve and add new features based on community feedback.
+Thank you for choosing Gwen Stacy for your Discord server! We're constantly working to improve and add new features based on community feedback.
 
 *Last updated: May 2026*
