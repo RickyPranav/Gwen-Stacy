@@ -148,7 +148,7 @@ Music uses [Lavalink v4](https://github.com/lavalink-devs/Lavalink) via [Riffy](
 The bot is automatically published to GitHub Container Registry on every push to main.
 
 ```bash
-docker pull ghcr.io/codebymitch/titanbot:main
+docker pull ghcr.io/codebymitch/Gwen-Stacy:main
 ```
 
 <a name="manual-installation-steps"></a>
@@ -161,7 +161,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
+   git clone https://github.com/codebymitch/Gwen-Stacy.git
    cd Gwen Stacy
    ```
 
@@ -182,7 +182,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
    GUILD_ID=your_discord_guild_id_here
 
    # PostgreSQL Configuration (Primary Database)
-   POSTGRES_URL=postgresql://postgres:yourpassword@localhost:5432/titanbot
+   POSTGRES_URL=postgresql://postgres:yourpassword@localhost:5432/Gwen-Stacy
    POSTGRES_HOST=localhost
    POSTGRES_PORT=5432
    POSTGRES_DB=Gwen Stacy
@@ -194,7 +194,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
    - `NODE_ENV=production`
    - `LOG_LEVEL=warn` for a clean production console (critical issues + startup status)
    - `LOG_LEVEL=info` if you want more detailed operational logs
-   - If your chosen `PORT` is already used, TitanBot automatically tries the next port(s)
+   - If your chosen `PORT` is already used, Gwen Stacy automatically tries the next port(s)
 
    Environment options reference:
    - `NODE_ENV`: `development`, `production`, `test` (any non-`production` value is treated as non-production)
@@ -226,9 +226,9 @@ Notes:
    ```bash
    # Create database and user
    createdb Gwen Stacy
-   createuser titanbot
-   psql -c "ALTER USER titanbot PASSWORD 'yourpassword';"
-   psql -c "GRANT ALL PRIVILEGES ON DATABASE titanbot TO titanbot;"
+   createuser Gwen Stacy
+   psql -c "ALTER USER Gwen-Stacy PASSWORD 'yourpassword';"
+   psql -c "GRANT ALL PRIVILEGES ON DATABASE Gwen-Stacy TO Gwen-Stacy;"
    ```
 
 5. **Verify Database Setup**
@@ -249,7 +249,7 @@ Notes:
 <a name="bot-intents"></a>
 
 ## Required Bot Intents
-TitanBot requires the following Discord intents:
+Gwen Stacy requires the following Discord intents:
 - **Guilds**
 - **Guild Messages**
 - **Message Content**
