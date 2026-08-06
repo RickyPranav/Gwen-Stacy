@@ -1,6 +1,6 @@
-# TitanBot - Ultimate Discord Bot
+Gwen Stacy - Ultimate Discord Bot
 
-**TitanBot** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
+**Gwen Stacy** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
 
 [![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/8kJBYhTGW9)
 [![Discord.js](https://img.shields.io/npm/v/discord.js?style=flat-square&labelColor=%23202225&color=%23202225&logo=npm&logoColor=white&logoWidth=20)](https://www.npmjs.com/package/discord.js)
@@ -277,7 +277,7 @@ TitanBot requires the following Discord intents:
 
 ## License
 
-TitanBot is released under the MIT License. See [LICENSE](LICENSE) for details.
+Gwen Stacy is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Thank You
 
